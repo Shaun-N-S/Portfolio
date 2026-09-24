@@ -7,7 +7,13 @@ export function About() {
       <HeaderTitle title="About" />
       <div className="space-y-2 p-2">
         <p className="text-primary/90 text-base">
-          I&apos;m Shaun, a Full Stack Engineer contributing to{" "}
+          I&apos;m Shaun, a full stack engineer. I mostly work with React and
+          TypeScript on the frontend, and Node.js with NestJS on the backend.
+          I&apos;ve built authentication systems, payment flows with Stripe and
+          Razorpay, and real-time features using WebRTC and Socket.IO.
+        </p>
+        <p className="text-primary/90 text-base">
+          Right now I&apos;m contributing to{" "}
           <Button
             asChild
             className="h-0 cursor-pointer p-0 underline"
@@ -17,24 +23,20 @@ export function About() {
               NELT
             </a>
           </Button>
-          , building production systems end to end with React, TypeScript, and
-          NestJS.
+          , an early-stage esports startup, helping build out their chat system
+          for the MVP — one-on-one chats, group chats, and team conversations,
+          all in real time.
         </p>
         <p className="text-primary/90 text-base">
-          I work across the stack — from Node.js/NestJS backends to
-          React/TypeScript frontends — with authentication and payment
-          integrations like Stripe and Razorpay, and real-time communication via
-          WebRTC and Socket.IO.
-        </p>
-        <p className="text-primary/90 text-base">
-          I design applications around{" "}
+          I also build my own projects, like VentureNest and Spectrax. I like
+          following{" "}
           <Button
             asChild
             className="h-0 cursor-pointer p-0 underline"
             variant="link"
           >
             <a
-              href="https://en.wikipedia.org/wiki/Robert_C._Martin#Clean_Architecture"
+              href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html"
               className="text-base"
               target="_blank"
             >
@@ -48,14 +50,14 @@ export function About() {
             variant="link"
           >
             <a
-              href="https://en.wikipedia.org/wiki/SOLID"
+              href="https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design"
               className="text-base"
               target="_blank"
             >
               SOLID principles
             </a>
-          </Button>
-          , keeping systems testable and maintainable as they grow.
+          </Button>{" "}
+          in these — it just makes the codebase easier to live with as it grows.
         </p>
       </div>
     </section>

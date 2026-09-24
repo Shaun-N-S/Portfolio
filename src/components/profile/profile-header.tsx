@@ -28,7 +28,7 @@ export function ProfileHeader() {
               fetchPriority="high"
               className="ring-border ring-offset-edge size-30 rounded-full ring-1 ring-offset-2 saturate-50 select-none"
             />
-            <TerminalArrowSvg />
+            {/* <TerminalArrowSvg /> */}
           </div>
           <div className="flex items-center justify-center gap-1 sm:mt-2 sm:justify-start">
             <h1 className="text-primary text-center text-xl font-bold sm:text-left md:text-2xl">
@@ -58,7 +58,6 @@ export function ProfileHeader() {
                   "Solving complex problems with code",
                   "Focused on clean, thoughtful design",
                   "Crafting with attention to detail",
-                  "Sweating the small details",
                 ]}
                 transition={{
                   type: "spring",
