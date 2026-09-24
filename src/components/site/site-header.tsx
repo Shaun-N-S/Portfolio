@@ -73,7 +73,7 @@ export function SiteHeader() {
               }}
               duration={1.2}
             >
-              npx udaykiran
+              Hello World !
             </TextRoll>
           </div>
 
