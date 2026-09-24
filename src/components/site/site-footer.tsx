@@ -49,7 +49,7 @@ export function SiteFooter() {
               variant="link"
               className="m-0 p-0 text-xs underline"
             >
-              <a href="https://github.com/udaykirancodes" target="_blank">
+              <a href="https://github.com/Shaun-N-S" target="_blank">
                 {USER.name}
               </a>
             </Button>

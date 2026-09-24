@@ -13,24 +13,60 @@ export const TECH_STACK: TechStack[] = [
     title: "JavaScript",
   },
   {
-    key: "golang",
-    title: "GoLang",
-  },
-  {
-    key: "java",
-    title: "Java",
-  },
-  {
     key: "nodejs",
     title: "Node.js",
+  },
+  {
+    key: "nestjs",
+    title: "NestJS",
+  },
+  {
+    key: "express",
+    title: "Express.js",
+  },
+  {
+    key: "mongodb",
+    title: "MongoDB",
+  },
+  {
+    key: "postgresql",
+    title: "PostgreSQL",
+  },
+  {
+    key: "firebase",
+    title: "Firebase",
+  },
+  {
+    key: "socketio",
+    title: "Socket.IO",
+  },
+  {
+    key: "webrtc",
+    title: "WebRTC",
+  },
+  {
+    key: "stripe",
+    title: "Stripe",
+  },
+  {
+    key: "razorpay",
+    title: "Razorpay",
   },
   {
     key: "react",
     title: "React",
   },
   {
-    key: "nextjs2",
-    title: "Next.js",
+    key: "redux",
+    title: "Redux",
+  },
+  {
+    key: "tanstack-query",
+    title: "TanStack Query",
+  },
+  {
+    key: "react-router",
+    title: "React Router",
     theme: true,
   },
   {
@@ -43,25 +79,40 @@ export const TECH_STACK: TechStack[] = [
     theme: true,
   },
   {
+    key: "material-ui",
+    title: "Material UI",
+  },
+  {
     key: "motion",
-    title: "Motion",
+    title: "Framer Motion",
   },
   {
-    key: "redux",
-    title: "Redux",
+    key: "aws",
+    title: "AWS",
   },
   {
-    key: "react-router",
-    title: "React Router",
-    theme: true,
-  },
-  {
-    key: "git",
-    title: "Git",
+    key: "vercel",
+    title: "Vercel",
   },
   {
     key: "docker",
     title: "Docker",
+  },
+  {
+    key: "github-actions",
+    title: "GitHub Actions",
+  },
+  {
+    key: "prometheus",
+    title: "Prometheus",
+  },
+  {
+    key: "grafana",
+    title: "Grafana",
+  },
+  {
+    key: "git",
+    title: "Git",
   },
   {
     key: "figma",

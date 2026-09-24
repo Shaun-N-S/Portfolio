@@ -58,7 +58,7 @@ export const HireMe = ({ text, avatarSrc, className }: HireMeProps) => {
       </div>
       <Image
         src={avatarSrc}
-        alt="Uday Kiran"
+        alt="Shaun N S"
         width={48}
         height={48}
         className={cn(

@@ -7,36 +7,38 @@ export function About() {
       <HeaderTitle title="About" />
       <div className="space-y-2 p-2">
         <p className="text-primary/90 text-base">
-          I&apos;m Udaykiran, a Software Developer at{" "}
+          I&apos;m Shaun, a Full Stack Engineer contributing to{" "}
           <Button
             asChild
             className="h-0 cursor-pointer p-0 underline"
             variant="link"
           >
-            <a href="https://hexacluster.ai/" target="_blank">
-              HexaCluster
+            <a href="https://www.linkedin.com/company/nelt/" target="_blank">
+              NELT
             </a>
           </Button>
-          , with 1.5+ years of experience building high-quality web applications
-          using Next.js, React, and TypeScript.
+          , building production systems end to end with React, TypeScript, and
+          NestJS.
         </p>
         <p className="text-primary/90 text-base">
-          I also work on scalable backend services using Node.js, Spring Boot,
-          and Golang, focusing on microservices architecture.
+          I work across the stack — from Node.js/NestJS backends to
+          React/TypeScript frontends — with authentication and payment
+          integrations like Stripe and Razorpay, and real-time communication via
+          WebRTC and Socket.IO.
         </p>
         <p className="text-primary/90 text-base">
-          I&apos;ve worked with{" "}
+          I design applications around{" "}
           <Button
             asChild
             className="h-0 cursor-pointer p-0 underline"
             variant="link"
           >
             <a
-              href="https://micro-frontends.org/"
+              href="https://en.wikipedia.org/wiki/Robert_C._Martin#Clean_Architecture"
               className="text-base"
               target="_blank"
             >
-              micro-frontends
+              Clean Architecture
             </a>
           </Button>{" "}
           and{" "}
@@ -46,14 +48,14 @@ export function About() {
             variant="link"
           >
             <a
-              href="https://microservices.io/"
+              href="https://en.wikipedia.org/wiki/SOLID"
               className="text-base"
               target="_blank"
             >
-              microservices
+              SOLID principles
             </a>
           </Button>
-          , building modular, scalable applications end-to-end.
+          , keeping systems testable and maintainable as they grow.
         </p>
       </div>
     </section>
