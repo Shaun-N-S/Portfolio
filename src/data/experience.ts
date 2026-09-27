@@ -23,7 +23,7 @@ export const EXPERIENCE: Experience[] = [
       "Built the full chat experience — conversation lists, message threads, reactions, typing indicators, read receipts",
       "Built a multi-step local-team creation wizard with real-time invitation handling, using Zustand for state management",
     ],
-    from: new Date("2026-01-01"),
+    from: new Date("2026-08-01"),
     to: null,
     type: "Full-time",
     skills: [
