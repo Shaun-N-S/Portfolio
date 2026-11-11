@@ -1,7 +1,7 @@
 export type Experience = {
   company: string
   title: string
-  type: "Full-time" | "Internship"
+  type: "Full-time" | "Internship" | "Volunteer"
   logo: string | null
   from: Date
   to: Date | null
@@ -17,7 +17,7 @@ export const EXPERIENCE: Experience[] = [
     logo: "/assets/company/nelt.jpg",
     isExpanded: true,
     descriptionList: [
-      "Shipped 11+ pull requests across a shared NestJS/TypeScript backend and React frontend",
+      "Merged 11+ pull requests across a shared NestJS/TypeScript backend and React frontend of an early-stage startup in development",
       "Built the platform's chat system end-to-end — one-to-one, group, and team conversations — on a single MongoDB schema with a type discriminator",
       "Used Firebase Realtime Database as a publish-only layer for live updates while MongoDB remained the source of truth",
       "Built the full chat experience — conversation lists, message threads, reactions, typing indicators, read receipts",
@@ -25,7 +25,7 @@ export const EXPERIENCE: Experience[] = [
     ],
     from: new Date("2026-08-01"),
     to: null,
-    type: "Full-time",
+    type: "Volunteer",
     skills: [
       "TypeScript",
       "NestJS",
